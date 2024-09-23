@@ -13,7 +13,7 @@ And user enters JobLevel, Department, Job Function
 And user enters additional details
 And user clicks on Contact Sales button
 
-Then user is on Thank you for reaching out
+Then user is on Thank you for reaching out!
 
 
 

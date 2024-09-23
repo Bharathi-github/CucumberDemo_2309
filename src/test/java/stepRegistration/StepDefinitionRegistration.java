@@ -82,12 +82,12 @@ public class StepDefinitionRegistration {
 		String confirmation = driver.getTitle();
 	}
 	
-	@Then("^user is on Thank you for reaching out$")
+	@Then("^user is on Thank you for reaching out!$")
 	public void thankyou() {
 		System.out.println("Thank you for reaching out.\r\n"
 				+ "One of our experts will be in touch soon.");
 	}
-	
+	//test
 	public static void handleDropdown(WebElement element, String Value) throws InterruptedException {
 		  Select dropdown = new Select(element);
 		  dropdown.selectByValue(Value);
